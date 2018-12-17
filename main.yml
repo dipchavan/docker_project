@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: webservers
   remote_user: dipak
   become: yes
   become_method: sudo
