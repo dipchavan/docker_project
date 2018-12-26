@@ -18,9 +18,9 @@
     
     - name: Running the container
       docker_container:
+        name:  web_deploy
         image: web:latest
-        path: docker
-        state: running
+        state: started
         
     - name: Check if container is running
       shell: docker ps
